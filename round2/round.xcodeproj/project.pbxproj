@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		153FDE291DD063FD1A929703 /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837E8DB1140E3C18464FF6A5 /* Pods_Makestagram.framework */; };
 		169D95EB1D1FEDA300E920CD /* hpeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169D95EA1D1FEDA300E920CD /* hpeHelper.swift */; };
 		169D95ED1D1FF89200E920CD /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169D95EC1D1FF89200E920CD /* LocationHelper.swift */; };
 		169D95F11D203A2F00E920CD /* greymapicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 169D95F01D203A2F00E920CD /* greymapicon.png */; };
@@ -32,7 +31,6 @@
 		16C1552A1D1F4F78004D0C52 /* ParseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C155291D1F4F78004D0C52 /* ParseHelper.swift */; };
 		16C7918C1D1F9B75004CEECA /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C7918B1D1F9B75004CEECA /* UserProfileViewController.swift */; };
 		16C7918E1D1F9BB7004CEECA /* UserSearchTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C7918D1D1F9BB7004CEECA /* UserSearchTableCell.swift */; };
-		1EA872F187DB5988072039E6 /* Pods_MakestagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D3A9BEC563CCD88964B7C6 /* Pods_MakestagramTests.framework */; };
 		62551B961B06C2F5000913E4 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62551B951B06C2F5000913E4 /* Social.framework */; };
 		62551B981B06C2FD000913E4 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62551B971B06C2FD000913E4 /* Accounts.framework */; };
 		62551B9A1B06C31F000913E4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62551B991B06C31F000913E4 /* CoreLocation.framework */; };
@@ -46,18 +44,7 @@
 		62C8C1EB1B06BD6500DC3EA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62C8C1E91B06BD6500DC3EA7 /* Main.storyboard */; };
 		62C8C1ED1B06BD6500DC3EA7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62C8C1EC1B06BD6500DC3EA7 /* Images.xcassets */; };
 		62C8C1F01B06BD6500DC3EA7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62C8C1EE1B06BD6500DC3EA7 /* LaunchScreen.xib */; };
-		62C8C1FC1B06BD6500DC3EA7 /* MakestagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C8C1FB1B06BD6500DC3EA7 /* MakestagramTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		62C8C1F61B06BD6500DC3EA7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 62C8C1D81B06BD6500DC3EA7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 62C8C1DF1B06BD6500DC3EA7;
-			remoteInfo = Makestagram;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		62A07D1C1B1E56C2001F6916 /* Embed Frameworks */ = {
@@ -73,7 +60,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0557D72BE1D6059F26C976FD /* Pods-MakestagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakestagramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MakestagramTests/Pods-MakestagramTests.debug.xcconfig"; sourceTree = "<group>"; };
 		169D95EA1D1FEDA300E920CD /* hpeHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hpeHelper.swift; sourceTree = "<group>"; };
 		169D95EC1D1FF89200E920CD /* LocationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationHelper.swift; sourceTree = "<group>"; };
 		169D95F01D203A2F00E920CD /* greymapicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greymapicon.png; sourceTree = "<group>"; };
@@ -99,8 +85,8 @@
 		16C155291D1F4F78004D0C52 /* ParseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseHelper.swift; sourceTree = "<group>"; };
 		16C7918B1D1F9B75004CEECA /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		16C7918D1D1F9BB7004CEECA /* UserSearchTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSearchTableCell.swift; sourceTree = "<group>"; };
-		24C68E01DC31F4AF9B609B9A /* Pods-MakestagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakestagramTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MakestagramTests/Pods-MakestagramTests.release.xcconfig"; sourceTree = "<group>"; };
 		2E1AE507EDD2D18E4D8E4173 /* Pods-Makestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.debug.xcconfig"; sourceTree = "<group>"; };
+		2ED3E81A724B28872018A0AC /* Pods_round.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_round.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62551B951B06C2F5000913E4 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		62551B971B06C2FD000913E4 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		62551B991B06C31F000913E4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -116,11 +102,10 @@
 		62C8C1EA1B06BD6500DC3EA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62C8C1EC1B06BD6500DC3EA7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		62C8C1EF1B06BD6500DC3EA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		62C8C1F51B06BD6500DC3EA7 /* round.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = round.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C8C1FA1B06BD6500DC3EA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62C8C1FB1B06BD6500DC3EA7 /* MakestagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakestagramTests.swift; sourceTree = "<group>"; };
-		837E8DB1140E3C18464FF6A5 /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		94D3A9BEC563CCD88964B7C6 /* Pods_MakestagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakestagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F9094B773159FE72A3FAA38 /* Pods-round.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-round.debug.xcconfig"; path = "Pods/Target Support Files/Pods-round/Pods-round.debug.xcconfig"; sourceTree = "<group>"; };
+		E7C6C0FBE0E5CC1E79B57FB6 /* Pods-round.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-round.release.xcconfig"; path = "Pods/Target Support Files/Pods-round/Pods-round.release.xcconfig"; sourceTree = "<group>"; };
 		E90EF6307DCCDD1C8928B547 /* Pods-Makestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,15 +122,6 @@
 				62551B9A1B06C31F000913E4 /* CoreLocation.framework in Frameworks */,
 				62551B981B06C2FD000913E4 /* Accounts.framework in Frameworks */,
 				62551B961B06C2F5000913E4 /* Social.framework in Frameworks */,
-				153FDE291DD063FD1A929703 /* Pods_Makestagram.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62C8C1F21B06BD6500DC3EA7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1EA872F187DB5988072039E6 /* Pods_MakestagramTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,8 +157,7 @@
 				62551B991B06C31F000913E4 /* CoreLocation.framework */,
 				62551B971B06C2FD000913E4 /* Accounts.framework */,
 				62551B951B06C2F5000913E4 /* Social.framework */,
-				837E8DB1140E3C18464FF6A5 /* Pods_Makestagram.framework */,
-				94D3A9BEC563CCD88964B7C6 /* Pods_MakestagramTests.framework */,
+				2ED3E81A724B28872018A0AC /* Pods_round.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -226,7 +201,6 @@
 			isa = PBXGroup;
 			children = (
 				62C8C1E01B06BD6500DC3EA7 /* round.app */,
-				62C8C1F51B06BD6500DC3EA7 /* round.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -290,8 +264,8 @@
 			children = (
 				2E1AE507EDD2D18E4D8E4173 /* Pods-Makestagram.debug.xcconfig */,
 				E90EF6307DCCDD1C8928B547 /* Pods-Makestagram.release.xcconfig */,
-				0557D72BE1D6059F26C976FD /* Pods-MakestagramTests.debug.xcconfig */,
-				24C68E01DC31F4AF9B609B9A /* Pods-MakestagramTests.release.xcconfig */,
+				9F9094B773159FE72A3FAA38 /* Pods-round.debug.xcconfig */,
+				E7C6C0FBE0E5CC1E79B57FB6 /* Pods-round.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -320,27 +294,6 @@
 			productReference = 62C8C1E01B06BD6500DC3EA7 /* round.app */;
 			productType = "com.apple.product-type.application";
 		};
-		62C8C1F41B06BD6500DC3EA7 /* roundTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 62C8C2021B06BD6500DC3EA7 /* Build configuration list for PBXNativeTarget "roundTests" */;
-			buildPhases = (
-				F37DE8C5420456889277D5E6 /* [CP] Check Pods Manifest.lock */,
-				62C8C1F11B06BD6500DC3EA7 /* Sources */,
-				62C8C1F21B06BD6500DC3EA7 /* Frameworks */,
-				62C8C1F31B06BD6500DC3EA7 /* Resources */,
-				8BAD8187E4F08ADDACC3F3EF /* [CP] Embed Pods Frameworks */,
-				840A3543B479BB71C673349E /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				62C8C1F71B06BD6500DC3EA7 /* PBXTargetDependency */,
-			);
-			name = roundTests;
-			productName = MakestagramTests;
-			productReference = 62C8C1F51B06BD6500DC3EA7 /* round.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -355,11 +308,6 @@
 					62C8C1DF1B06BD6500DC3EA7 = {
 						CreatedOnToolsVersion = 6.3;
 						DevelopmentTeam = P5GLL4MC5D;
-					};
-					62C8C1F41B06BD6500DC3EA7 = {
-						CreatedOnToolsVersion = 6.3;
-						DevelopmentTeam = 7QQX7GNST9;
-						TestTargetID = 62C8C1DF1B06BD6500DC3EA7;
 					};
 				};
 			};
@@ -377,7 +325,6 @@
 			projectRoot = "";
 			targets = (
 				62C8C1DF1B06BD6500DC3EA7 /* round */,
-				62C8C1F41B06BD6500DC3EA7 /* roundTests */,
 			);
 		};
 /* End PBXProject section */
@@ -404,13 +351,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62C8C1F31B06BD6500DC3EA7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -426,7 +366,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-round/Pods-round-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4239BD255721D9EBEB06EFF3 /* [CP] Copy Pods Resources */ = {
@@ -441,55 +381,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-round/Pods-round-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		43DE8DF9CDBB8896F01CC2F7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		840A3543B479BB71C673349E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MakestagramTests/Pods-MakestagramTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8BAD8187E4F08ADDACC3F3EF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MakestagramTests/Pods-MakestagramTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F37DE8C5420456889277D5E6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -529,23 +424,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62C8C1F11B06BD6500DC3EA7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62C8C1FC1B06BD6500DC3EA7 /* MakestagramTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		62C8C1F71B06BD6500DC3EA7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 62C8C1DF1B06BD6500DC3EA7 /* round */;
-			targetProxy = 62C8C1F61B06BD6500DC3EA7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		62C8C1E91B06BD6500DC3EA7 /* Main.storyboard */ = {
@@ -653,7 +532,7 @@
 		};
 		62C8C2001B06BD6500DC3EA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E1AE507EDD2D18E4D8E4173 /* Pods-Makestagram.debug.xcconfig */;
+			baseConfigurationReference = 9F9094B773159FE72A3FAA38 /* Pods-round.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -675,7 +554,7 @@
 		};
 		62C8C2011B06BD6500DC3EA7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E90EF6307DCCDD1C8928B547 /* Pods-Makestagram.release.xcconfig */;
+			baseConfigurationReference = E7C6C0FBE0E5CC1E79B57FB6 /* Pods-round.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -691,50 +570,6 @@
 				PRODUCT_NAME = round;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		62C8C2031B06BD6500DC3EA7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0557D72BE1D6059F26C976FD /* Pods-MakestagramTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MakestagramTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Make-School.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = round;
-				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/round.app/round";
-			};
-			name = Debug;
-		};
-		62C8C2041B06BD6500DC3EA7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24C68E01DC31F4AF9B609B9A /* Pods-MakestagramTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MakestagramTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Make-School.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = round;
-				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/round.app/round";
 			};
 			name = Release;
 		};
@@ -755,15 +590,6 @@
 			buildConfigurations = (
 				62C8C2001B06BD6500DC3EA7 /* Debug */,
 				62C8C2011B06BD6500DC3EA7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		62C8C2021B06BD6500DC3EA7 /* Build configuration list for PBXNativeTarget "roundTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				62C8C2031B06BD6500DC3EA7 /* Debug */,
-				62C8C2041B06BD6500DC3EA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

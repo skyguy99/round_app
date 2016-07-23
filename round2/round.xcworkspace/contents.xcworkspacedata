@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/randyperecman/Desktop/developer/round_project/round.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:round.xcodeproj">
    </FileRef>
    <FileRef
