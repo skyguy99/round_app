@@ -169,14 +169,6 @@ class MainViewController: UIViewController, CLLocationManagerDelegate, UITableVi
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
     // MARK: - Table view data source
     
     
@@ -255,30 +247,7 @@ class MainViewController: UIViewController, CLLocationManagerDelegate, UITableVi
             
             
             cell.userFullNameLabel.text = String("\(first) \(last)")
-            if userAtHome.username == "miriam"
-            {
-                cell.profileImage2.image = UIImage(named: "mlogo.png")
-            }
-            else if userAtHome.username == "justinjlee99"
-            {
-                cell.profileImage2.image = UIImage(named: "jlogo.png")
-            }
-            else if userAtHome.username  == "patrick "
-            {
-                cell.profileImage2.image = UIImage(named: "plogo.png")
-            }
-            else if userAtHome.username == "skyyguy"
-            {
-                cell.profileImage2.image = UIImage(named: "logo1.png")
-            }
-                
-            else if userAtHome.username == "Randy"
-            {
-                cell.profileImage2.image = UIImage(named: "jlogo 2.png")
-            }
-            else{
                 cell.profileImage2.image = UIImage(named: "round_logo")
-            }
 
             
             // return cell
